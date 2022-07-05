@@ -4,17 +4,6 @@ Created on Fri Nov 19 23:51:46 2021
 @author: Administrator
 """
 
-'''
-11월20일 03시48분
-1. Testset에서 classification후에 Dataset으로 추가하는 더 좋은 방법 생각하기 (지금방법 너무 구림)
-2. Voronoi tessellation 만약 각각 출력한다면 그 방법 생각하기 -> 아마 main에서 append 직전에 출력?
-3. 보고서 작성시 각각의 문제를 section화 하는데 코드가 총 5개로 나눠져야하는지? -> 1,2번 메모 해결 -> ★★google doc 질문하기 ★★
-
-
-11월30일 21시56분
-1. voronoi tessellation은 총 4개 출력 -> 이때 각각의 KNN 시행결과의 차이점을 분석, 기술
-2. ★★★scater plot에서 각각의 class마다 marker가 다르게 표시되는 방법 찾아서 구현 ★★★ -> 주석형식으로 출력하는것으로 대체 
-'''
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.spatial import Voronoi, voronoi_plot_2d
